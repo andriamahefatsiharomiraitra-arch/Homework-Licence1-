@@ -1,0 +1,21 @@
+Algorithme2
+*Algorithm Produit*
+
+Variable:
+a reel
+b reel
+p reel
+
+Debut
+
+AFFICHER "Entrer a:"
+LIRE(a)
+
+AFFICHER "Entrer b:"
+LIRE(b)
+
+p <- a * b
+
+AFFICHER "Le produit est:", p
+
+Fin
