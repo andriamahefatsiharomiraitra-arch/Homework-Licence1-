@@ -1,0 +1,17 @@
+Algorithme 9
+*Algorithm Temperature*
+
+Variable:
+C reel
+F reel
+
+Debut
+
+AFFICHER "Entrer temperature Celsius:"
+LIRE(C)
+
+F <- (C * 9/5) + 32
+
+AFFICHER "Temperature Fahrenheit:", F
+
+Fin
