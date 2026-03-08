@@ -1,0 +1,46 @@
+Algorithm1
+*Equation Second Degre*
+
+Variable:
+a reel
+b reel
+c reel
+delta reel
+x1 reel
+x2 reel
+
+Debut
+
+AFFICHER "Entrer a:"
+LIRE(a)
+
+AFFICHER "Entrer b:"
+LIRE(b)
+
+AFFICHER "Entrer c:"
+LIRE(c)
+
+delta <- b*b - 4*a*c
+
+SI delta > 0 ALORS
+   x1 <- (-b - racine(delta)) / (2*a)
+   x2 <- (-b + racine(delta)) / (2*a)
+
+   AFFICHER "Deux solutions:"
+   AFFICHER x1
+   AFFICHER x2
+
+SINON
+   SI delta = 0 ALORS
+      x1 <- -b / (2*a)
+
+      AFFICHER "Une solution:"
+      AFFICHER x1
+
+   SINON
+      AFFICHER "Pas de solution reelle"
+   FINSI
+
+FINSI
+
+Fin
